@@ -42,5 +42,8 @@ public class Main {
         train.calculateDistance(new String[]{"A","D","C"});
         train.calculateDistance(new String[]{"A","E","B","C","D"});
         train.calculateDistance(new String[]{"A","E","D"});
+
+        train.calculateNumbersOfTrips("C", "C", 3, routesAndDistance);
+        train.calculateNumbersOfTrips("A", "C", 4, routesAndDistance);
     }
 }
