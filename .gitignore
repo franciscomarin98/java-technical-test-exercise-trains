@@ -31,3 +31,6 @@ hs_err_pid*
 
 # IDEA config files
 .idea/
+
+# Others
+.out/
